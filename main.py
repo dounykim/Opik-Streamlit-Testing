@@ -4,12 +4,13 @@ from groq import Groq
 
 # --- API Key 설정 -------------------------------------------------------------
 # Groq API 키 설정
-GROQ_API_KEY = st.secrets['GROQ_API_KEY'] 
+#GROQ_API_KEY = st.secrets['GROQ_API_KEY'] 
 # Comet API 키 설정
 #OPIK_API_KEY = st.secrets['OPIK_API_KEY'] 
 
 # Groq 초기화
-client = Groq(api_key=GROQ_API_KEY)
+#client = Groq(api_key=GROQ_API_KEY)
+client = Groq()
 
 # Comet Opik을 설정
 #opik.configure(api_key=OPIK_API_KEY, workspace='wizard-bot1')
